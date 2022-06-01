@@ -1,20 +1,25 @@
 import "./App.css";
-import Projects from "./components/projects/Project";
-import Notes from "./components/notes/Notes";
-import Resume from "./components/resume/Resume";
+import Nav from "./components/nav/Nav"
+import About from "./components/about/About";
+import Bots from "./components/bots/Bots";
+import Feedback from "./components/feedback/Feedback";
 import Contact from "./components/contact/Contact";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
 
 function App() {
   return (
     <div className="App">
-      <header className="Header">AidenZegil.com</header>
       <div className="Container">
-        <Projects />
-        <Notes />
-        <Resume />
+        <Nav />
+        <About />
+        <Bots />
+        <Feedback />
         <Contact />
-      </div>
       <footer className="Footer">Version: 0.0.1</footer>
+      </div>
     </div>
   );
 }
