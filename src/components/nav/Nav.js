@@ -5,8 +5,8 @@ const Nav = () => {
   return (
     <div className={styles.Container}>
       <div className={styles.TitleContainer}>
-        <header>CIRCLE</header>
-        <p style={{fontSize: 25}}>Where AI are friends not food</p>
+        <p className={styles.Text}>CIRCLE</p>
+        <p className={styles.Text} style={{fontSize: 25}} >Where AI are friends not food</p>
       </div>
       <div className={styles.NavContainer}>
           <button className={styles.NavBtn}>Mission</button>
