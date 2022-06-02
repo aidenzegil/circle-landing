@@ -6,20 +6,30 @@
   margin: auto;
 }
 
-.Bot {
-  height: 200px;
-  width: 200px;
-  background-color: lightgrey;
-  margin: auto;
-  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
-  cursor: pointer;
-}
-
 .Bot:hover {
   transform: scale(1.05);
 }
 
+.TextContainer {
+  display: block;
+  width: 100%;
+  min-height: 10%;
+  top: 0;
+  font-size: 40px;
+  margin-top: 5%;
+  color: #97cb6d;
+  text-shadow: 5px 3px 10px black;
+}
+
+.Bot {
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  margin: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  perspective: 1000px;
+}
 
 /* when things start overlapping */
 @media (max-width: 1075px) {
@@ -32,13 +42,46 @@
   }
 }
 
-.TextContainer {
-  display: block;
+.BotWrap {
+  position: relative;
   width: 100%;
-  min-height: 10%;
-  top: 0;
-  font-size: 40px;
-  margin-top: 5%;
-  color: #97CB6D;
-  text-shadow: 5px 3px 10px black;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Bot:hover .BotWrap {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Image,
+.Text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.Image {
+  color: black;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the back side */
+.Text {
+  padding: 10px;
+  font-size: 15px;
+  background-color: #97cb6d;
+  color: white;
+  transform: rotateY(180deg);
 }
