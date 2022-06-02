@@ -4,7 +4,7 @@ import '../../App.css'
 
 const About = () => {
     return (
-        <div className='Box' id='About' style={{marginLeft: 0, marginRight: "20%"}}>
+        <div className='Box' id='about' style={{marginLeft: 0, marginRight: "20%"}}>
             <div className={styles.TextContainer} data-aos="fade-up">
                 <p style={{fontSize: 40}}>The Mission</p>
                 <p>Imagine a future where robots and humans are friends.</p>

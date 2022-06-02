@@ -4,7 +4,7 @@ import "../../App.css";
 
 const Feedback = () => {
   return (
-    <div className="Box" id="Resume" style={{marginLeft: 0, marginRight: "20%"}}>
+    <div className="Box" id="feedback" style={{marginLeft: 0, marginRight: "20%"}}>
       <div className={styles.TextContainer}>
         <p className={styles.Text} data-aos="fade-up-right">
           <i>"The bots are just like a Google Assistant or Siri but easier.

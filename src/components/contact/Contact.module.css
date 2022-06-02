@@ -1,7 +1,28 @@
-.Container {
-    max-width: 75%;
-    min-width: 33%;
-    max-height: 33%;
-    background-color: lightcyan;
-    margin: 17%;
+.TextContainer {
+    font-size: 24px;
+    text-align: right;
+    width: 90%;
+    height: 100%;
+    color: #97CB6D;
+    display: flex;
+    text-shadow: 5px 3px 10px black;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: flex-end;
+    justify-content: space-between;
 }
+
+.Link {
+    color: red;
+    font-family: helvetica;
+    margin: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Link:hover {
+    transform: scale(1.05);
+    color: #97CB6D;
+  }
