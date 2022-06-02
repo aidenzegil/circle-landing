@@ -16,7 +16,6 @@
 
 .Container {
   scrollbar-width: none;
-  overflow-y: scroll;
   width: 90%;
   display: flex;
   align-items: center;
@@ -28,7 +27,7 @@
 }
 
 .Box {
-  min-height: 500px;
+  min-height: 600px;
   max-height: fit-content;
   width: 70%;
   margin-left: 20%;

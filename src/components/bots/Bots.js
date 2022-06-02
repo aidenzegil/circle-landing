@@ -4,7 +4,7 @@ import "../../App.css";
 
 function Bots() {
   return (
-    <div className="Box" style={{display: 'flex', flexDirection: 'column'}} id="notes">
+    <div className="Box" style={{display: 'flex', flexDirection: 'column'}} id="bots">
       <div className={styles.TextContainer}>
         <header className={styles.Header} data-aos="fade-up">Our Favourites</header>
       </div>

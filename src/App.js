@@ -18,7 +18,7 @@ function App() {
         <Bots />
         <Feedback />
         <Contact />
-      <footer className="Footer">Version: 0.0.1</footer>
+      <footer className="Footer"><i>Made by Aiden Zegil</i></footer>
       </div>
     </div>
   );
