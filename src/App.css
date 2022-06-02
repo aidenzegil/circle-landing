@@ -1,3 +1,69 @@
 .App {
+  width: 100%;
   text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+  flex-direction: column;
+  align-content: center;
+  scrollbar-width: none;
+  font-family: monospace;
+  /* background-image: linear-gradient(to bottom, #87A878, #DBF9B8); */
+  background-image: url(./img/skin.png);
+  background-repeat: repeat-y;
 }
+
+.Container {
+  scrollbar-width: none;
+  overflow-y: scroll;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 480px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.Box {
+  min-height: 500px;
+  max-height: fit-content;
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 50px;
+  display: flex;
+  background-image: url(img/inside2.jpeg);
+  border-radius: 10px;
+  box-shadow:inset 0px 0px 20px 4px rgba(0,0,0,.75);
+  align-items: center;
+}
+
+
+.Header {
+  color: #fff;
+  font-size: 40px;
+  top: 10px;
+  left: 10px;
+}
+
+.Footer {
+  color: #fff;
+  bottom: 10px;
+  right: 10px;
+}
+
+@media (max-width: 600px) {
+  .Header {
+    display: flex;
+    left: auto;
+  }
+
+  .Footer {
+    display: flex;
+    right: auto;
+  }
+}
+
+

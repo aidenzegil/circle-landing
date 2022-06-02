@@ -1,0 +1,44 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+.Bot {
+  height: 200px;
+  width: 200px;
+  background-color: lightgrey;
+  margin: auto;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.Bot:hover {
+  transform: scale(1.05);
+}
+
+
+/* when things start overlapping */
+@media (max-width: 1075px) {
+  .Container {
+    flex-direction: column;
+    left: auto;
+  }
+  .Bot {
+    margin: 25px auto;
+  }
+}
+
+.TextContainer {
+  display: block;
+  width: 100%;
+  min-height: 10%;
+  top: 0;
+  font-size: 40px;
+  margin-top: 5%;
+  color: #97CB6D;
+  text-shadow: 5px 3px 10px black;
+}

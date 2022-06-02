@@ -1,0 +1,16 @@
+.TextContainer {
+    text-align: left;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text {
+    font-size: 24px;
+    color: #97CB6D;
+    margin: auto;
+    padding: inherit;
+    text-shadow: 5px 3px 10px black;
+}

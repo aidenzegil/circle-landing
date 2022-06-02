@@ -1,0 +1,48 @@
+.Container {
+    width: 65%;
+    height: 200px;
+    background-image: url(../../img/inside2.jpeg);
+    box-shadow:inset 0px 0px 20px 4px rgba(0,0,0,0.75);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.TitleContainer {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 2%;
+    width: 100%;
+    color: #97CB6D;
+}
+
+.Text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.NavContainer {
+    display: flex;
+    right: 0;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-evenly;
+}
+
+.NavBtn {
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: #97CB6D;
+    outline: none;
+    background-color: transparent;
+    font-family: monospace;
+    text-decoration: overline;
+}
+
+.NavBtn:hover { 
+    transform: scale(1.2); 
+    }

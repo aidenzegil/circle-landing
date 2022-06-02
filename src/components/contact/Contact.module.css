@@ -1,0 +1,7 @@
+.Container {
+    max-width: 75%;
+    min-width: 33%;
+    max-height: 33%;
+    background-color: lightcyan;
+    margin: 17%;
+}
