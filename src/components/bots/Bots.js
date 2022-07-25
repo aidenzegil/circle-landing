@@ -28,7 +28,7 @@ function Bots() {
               />
             </div>
             <div className={styles.Text}>
-              <p>Erica is one of the mascots from Yeiku Market. She's a yandere, so she can either be very sweet or cold towards others. She also loves collecting dolls as a hobby!</p>
+              <p>Erica is a mascot from Yeiku Market. She loves collecting dolls as a hobby!</p>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ function Bots() {
               />
             </div>
             <div className={styles.Text}>
-              <p>Meet Matt, he was born in a small town called Dannsville. He spent most of his time in a scrapyard and invented all kinds of things including a time traveling machine.</p>
+              <p>Meet Matt, he spends most of his time in a scrapyard and has invented all kinds of things including a time traveling machine.</p>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ function Bots() {
               />
             </div>
             <div className={styles.Text}>
-              <p>Naka is the other mascot for Medium Cafe , and she runs the family's Cafe as well as looking after her younger sister, Kumori. Naka can usually be found cleaning up after Kumori or dashing around the Cafe.</p>
+              <p>Naka runs her family's Cafe and looks after her younger sister, Kumori. Naka can usually be found cleaning up or dashing around the Cafe.</p>
             </div>
           </div>
         </div>
